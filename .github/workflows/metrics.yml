@@ -12,6 +12,52 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: lowlighter/metrics@latest
+    
+      - name: 🦑 Personal metrics (left)
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
         with:
+          filename: metrics.github.svg
           token: ${{ secrets.METRICS_TOKEN }}
+          base: header
+
+          # Templete
+          template: classic
+          
+           # I Don't Know What Is This
+          plugin_lines: yes
+          
+          # Most used languages
+          plugin_languages: yes
+          plugin_languages_ignored: dockerfile, batchfile, makefile, qmake, lex, cmake, gnuplot, vue
+          plugin_languages_details: lines, percentage
+          plugin_languages_limit: 10
+          plugin_languages_sections: most-used, recently-used
+          plugin_languages_indepth: yes
+          
+          # Notable
+          plugin_notable: yes
+          plugin_notable_repositories: no
+
+          # Achievements
+          plugin_achievements: yes
+          plugin_achievements_secrets: yes
+          plugin_achievements_display: compact
+          plugin_achievements_limit: 0 
+          
+          # Order
+          config_order: base.header, lines, languages, notable, topics, achievements
+      - name: 🦑 Personal metrics (right)
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.personal.svg
+          token: NOT_NEEDED
+          
+          plugin_music: yes
+          plugin_music_provider: spotify
+          plugin_music_mode: top
+          plugin_music_top_type: tracks 
+          plugin_music_time_range: short
+          plugin_music_token: ${{ secrets.SPOTIFY_TOKEN }}
+          plugin_music_limit: 8

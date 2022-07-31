@@ -54,6 +54,10 @@ jobs:
           filename: metrics.personal.svg
           token: NOT_NEEDED
           
+          plugin_topics: yes
+          plugin_topics_mode: icons
+          plugin_topics_limit: 0
+          
           plugin_music: yes
           plugin_music_provider: spotify
           plugin_music_mode: top

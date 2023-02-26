@@ -42,7 +42,7 @@
                                     <rect class="day" x="135" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="150" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="165" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="180" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
+                                    <rect class="day" x="180" y="0" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
                                     <rect class="day" x="195" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                 </g>
                             </svg>
@@ -66,19 +66,19 @@
             </section>
             <section class="column">
                 <h3 class="field">Most used languages</h3>
-                <small>estimation from 646kb of code in 329 edited files across 111 commits</small>
+                <small>estimation from 647kb of code in 333 edited files across 113 commits</small>
                 <svg class="bar" xmlns="http://www.w3.org/2000/svg" width="460" height="8">
                     <mask id="languages-bar">
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="361.25694593845515" height="8" fill="#b07219"/>
-                    <rect mask="url(#languages-bar)" x="361.25694593845515" y="0" width="62.62859313614331" height="8" fill="#A97BFF"/>
-                    <rect mask="url(#languages-bar)" x="423.88553907459846" y="0" width="20.371277006060676" height="8" fill="#f1e05a"/>
-                    <rect mask="url(#languages-bar)" x="444.2568160806591" y="0" width="5.760375540993392" height="8" fill="#563d7c"/>
-                    <rect mask="url(#languages-bar)" x="450.01719162165256" y="0" width="4.887537334116357" height="8" fill="#3178c6"/>
-                    <rect mask="url(#languages-bar)" x="454.90472895576886" y="0" width="4.496142060552497" height="8" fill="#c6538c"/>
-                    <rect mask="url(#languages-bar)" x="459.40087101632133" y="0" width="0.5991289836786193" height="8" fill="#e34c26"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="360.8373261781554" height="8" fill="#b07219"/>
+                    <rect mask="url(#languages-bar)" x="360.8373261781554" y="0" width="62.555846589578145" height="8" fill="#A97BFF"/>
+                    <rect mask="url(#languages-bar)" x="423.3931727677336" y="0" width="20.630801724521778" height="8" fill="#f1e05a"/>
+                    <rect mask="url(#languages-bar)" x="444.0239744922554" y="0" width="5.753684548803696" height="8" fill="#563d7c"/>
+                    <rect mask="url(#languages-bar)" x="449.77765904105905" y="0" width="5.132988351540706" height="8" fill="#3178c6"/>
+                    <rect mask="url(#languages-bar)" x="454.91064739259974" y="0" width="4.490919544902807" height="8" fill="#c6538c"/>
+                    <rect mask="url(#languages-bar)" x="459.4015669375026" y="0" width="0.5984330624974591" height="8" fill="#e34c26"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -91,7 +91,7 @@
                             </div>
                             <small>
                                 <div>12.9k lines</div>
-                                <div>78.53%</div>
+                                <div>78.44%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -102,8 +102,8 @@
                                 JavaScript
                             </div>
                             <small>
-                                <div>852 lines</div>
-                                <div>4.43%</div>
+                                <div>864 lines</div>
+                                <div>4.48%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -114,8 +114,8 @@
                                 TypeScript
                             </div>
                             <small>
-                                <div>220 lines</div>
-                                <div>1.06%</div>
+                                <div>222 lines</div>
+                                <div>1.12%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -141,7 +141,7 @@
                             </div>
                             <small>
                                 <div>2.68k lines</div>
-                                <div>13.61%</div>
+                                <div>13.6%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -334,7 +334,7 @@
                                     </defs>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="gauge info">
                                         <circle class="gauge-base" r="25" cx="28" cy="28"/>
-                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="5.0924024640657155 155"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="5.30458590006845 155"/>
                                     </svg>
                                     <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
                                         <g xmlns="http://www.w3.org/2000/svg" transform="translate(5 4)" fill="none" fill-rule="evenodd">
@@ -444,7 +444,7 @@
                                     </defs>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="gauge info">
                                         <circle class="gauge-base" r="25" cx="28" cy="28"/>
-                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="45.95477386934674 155"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="49.07035175879397 155"/>
                                     </svg>
                                     <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
                                         <g stroke-width="2" fill="none" fill-rule="evenodd">
@@ -466,10 +466,10 @@
                                     <span class="prefix"></span>
                                     Deployer
                                     <div class="value-wrapper">
-                                        <div class="value">60</div>
+                                        <div class="value">64</div>
                                     </div>
                                 </div>
-                                <div class="text">Repositories have been deployed 60 times</div>
+                                <div class="text">Repositories have been deployed 64 times</div>
                             </div>
                         </div>
                         <div class="achievement c largeable-width-half">
@@ -686,7 +686,7 @@
                                 <div class="title">
                                     <span class="prefix"></span>
                                     Inspirer
-                                    <span class="gh">ranked 4.26m out of 379m repositories</span>
+                                    <span class="gh">ranked 4.13m out of 380m repositories</span>
                                     <div class="value-wrapper">
                                         <div class="value">1</div>
                                     </div>

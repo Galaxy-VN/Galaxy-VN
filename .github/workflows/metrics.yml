@@ -17,12 +17,13 @@ jobs:
         if: ${{ success() || failure() }}
         uses: lowlighter/metrics@latest
         with:
-          filename: metrics.github.svg
+          filename: metrics.classic.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: header
 
           # Templete
-          template: classic
+          # Note: It's now replace being as a filename
+          # template: classic
           
            # I Don't Know What Is This
           plugin_lines: yes

@@ -51,7 +51,7 @@ jobs:
           config_order: base.header, lines, languages, notable, topics, achievements
       - name: 🦑 Personal metrics (right)
         if: ${{ success() || failure() }}
-        uses: lowlighter/metrics@latest
+        uses: lowlighter/metrics@master
         with:
           filename: metrics.personal.svg
           token: NOT_NEEDED

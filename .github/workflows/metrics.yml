@@ -21,8 +21,8 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           committer_token: ${{ secrets.GITHUB_TOKEN }}
 
-          user: Galaxy-VN
-          base: header, repositories
+          user: GalaxyVN
+          base: header
           template: classic
           config_octicon: yes
           config_timezone: Asia/Ho_Chi_Minh

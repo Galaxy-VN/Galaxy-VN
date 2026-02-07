@@ -43,7 +43,7 @@ jobs:
           plugin_languages_recent_load: 300
           plugin_languages_recent_days: 29
           plugin_languages_sections: most-used, recently-used
-          commits_authoring: GalaxyVN, Galaxy-VN, ${{ secrets.EMAIL }}
+          commits_authoring: "GalaxyVN, Galaxy-VN, phamgiahuy092@gmail.com"
           
           # Notable
           plugin_notable: yes
@@ -57,7 +57,7 @@ jobs:
           config_order: base.header, lines, languages, notable, topics, fortune
       - name: 🦑 Personal metrics (right)
         if: ${{ success() || failure() }}
-        uses: lowlighter/metrics@latest
+        uses: lowlighter/metrics@master
         with:
           filename: metrics.personal.svg
           token: NOT_NEEDED

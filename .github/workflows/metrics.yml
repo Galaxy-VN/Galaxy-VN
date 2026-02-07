@@ -20,8 +20,7 @@ jobs:
           filename: metrics.classic.svg
           token: ${{ secrets.METRICS_TOKEN }}
           committer_token: ${{ secrets.GITHUB_TOKEN }}
-
-          user: GalaxyVN
+          
           base: header
           template: classic
           config_octicon: yes

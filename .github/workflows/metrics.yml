@@ -15,7 +15,7 @@ jobs:
     
       - name: 🦑 Personal metrics (left)
         if: ${{ success() || failure() }}
-        uses: lowlighter/metrics@latest
+        uses: gh-metrics/metrics@latest
         with:
           filename: metrics.classic.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -58,7 +58,7 @@ jobs:
           config_order: base.header, lines, languages, notable, topics, fortune
       - name: 🦑 Personal metrics (right)
         if: ${{ success() || failure() }}
-        uses: lowlighter/metrics@master
+        uses: gh-metrics/metrics@latest
         with:
           filename: metrics.personal.svg
           token: NOT_NEEDED

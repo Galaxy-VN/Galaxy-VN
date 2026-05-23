@@ -15,7 +15,7 @@ jobs:
     
       - name: 🦑 Personal metrics (left)
         if: ${{ success() || failure() }}
-        uses: gh-metrics/metrics@main
+        uses: gh-metrics/metrics@master
         with:
           filename: metrics.classic.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -44,7 +44,6 @@ jobs:
           plugin_languages_recent_load: 300
           plugin_languages_sections: most-used, recently-used
           plugin_languages_threshold: 0%
-          commits_authoring: GalaxyVN, GalaxyVN, ${{ secrets.EMAIL }}
           
           # Notable
           plugin_notable: yes
